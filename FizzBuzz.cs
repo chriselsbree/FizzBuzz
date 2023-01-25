@@ -10,7 +10,7 @@ public class FizzBuzz
         string number = "";
         for (int j = 0; j < 1; j++)
         {
-            number = one + comma;
+            number += one + comma;
 
         }
         var appleSauce = number + two + comma;
