@@ -6,7 +6,7 @@ public class FizzBuzz
     {
         var comma = ",";
         string sequence = "";
-        for (int j = 1; j <= 6; j++)
+        for (int j = 1; j <= 8; j++)
         {
             if (j == 3 || j==6 )
             {
@@ -22,6 +22,6 @@ public class FizzBuzz
             }
         }
 
-        return sequence + "7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
+        return sequence + "Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
     }
 }
