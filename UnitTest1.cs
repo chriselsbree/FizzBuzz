@@ -1,10 +1,14 @@
-namespace FizzBuzz;
+using NuGet.Frameworks;
 
-[TestClass]
-public class UnitTest1
+namespace FizzBuzz2
 {
-    [TestMethod]
-    public void TestMethod1()
+    [TestClass]
+    public class UnitTest1
     {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            Assert.IsTrue(false);
+        }
     }
 }
