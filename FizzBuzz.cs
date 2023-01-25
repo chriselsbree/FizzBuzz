@@ -4,7 +4,7 @@ public class FizzBuzz
 {
     public static string Calculate(int i)
     {
-        var one = "1";
+        int one = 1;
         var comma = ",";
         var two = "2";
         var appleSauce = one+ comma + two+comma;
