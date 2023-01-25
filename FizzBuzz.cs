@@ -8,9 +8,9 @@ public class FizzBuzz
         var comma = ",";
         int two = one + 1;
         string number = "";
-        for (int j = 0; j < 1; j++)
+        for (int j = 1; j <= 1; j++)
         {
-            number += one + comma;
+            number += j + comma;
 
         }
         var appleSauce = number + two + comma;
