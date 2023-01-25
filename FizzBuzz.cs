@@ -8,7 +8,7 @@ public class FizzBuzz
         string sequence = "";
         for (int j = 1; j <= 9; j++)
         {
-            if (j == 3 || j==6 || j==9)
+            if (j % 3 == 0) 
             {
                 sequence += "Fizz"+comma;
             }
