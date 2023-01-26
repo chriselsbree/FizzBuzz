@@ -10,16 +10,18 @@ public class FizzBuzz
         {
             if (j % 3 == 0) 
             {
-                sequence += "Fizz"+comma;
+                sequence += "Fizz";
             }
             else if (j == 5 || j == 10)
             {
-                sequence += "Buzz" + comma;
+                sequence += "Buzz";
             }
             else
             {
-                sequence += j + comma;
+                sequence += j;
             }
+
+            sequence += comma;
         }
 
         return sequence + "FizzBuzz,16,17,Fizz,19,Buzz";
