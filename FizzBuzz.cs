@@ -25,7 +25,7 @@ public class FizzBuzz
                 sequence += j;
             }
 
-            if (j != 20)
+            if (j != i)
             {
                 sequence += comma;
             }
