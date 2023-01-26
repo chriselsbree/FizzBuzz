@@ -6,7 +6,7 @@ public class FizzBuzz
     {
         var comma = ",";
         string sequence = "";
-        for (int j = 1; j <= 19; j++)
+        for (int j = 1; j <= 20; j++)
         {
             if (j % 3 == 0 && j % 5 == 0)
             {
@@ -16,7 +16,7 @@ public class FizzBuzz
             {
                 sequence += "Fizz";
             }
-            else if (j == 5 || j == 10)
+            else if (j % 5 == 0)
             {
                 sequence += "Buzz";
             }
@@ -25,9 +25,12 @@ public class FizzBuzz
                 sequence += j;
             }
 
-            sequence += comma;
+            if (j != 20)
+            {
+                sequence += comma;
+            }
         }
 
-        return sequence + "Buzz";
+        return sequence;
     }
 }
